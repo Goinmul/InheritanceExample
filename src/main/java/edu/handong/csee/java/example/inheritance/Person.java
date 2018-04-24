@@ -1,14 +1,17 @@
 package edu.handong.csee.java.example.inheritance;
 
 public class Person {
+	
 	private String name;
 
 	public Person() {
 		name = "No name yet";
 	}
+	
 	public Person(String initialName)    { 
 		name = initialName;    }
 
+	
 	public void setName(String newName) {
 		name = newName;    
 	} 
@@ -25,3 +28,4 @@ public class Person {
 		return this.name.equalsIgnoreCase(otherPerson.name);
 	} 
 }
+

@@ -3,6 +3,7 @@ package edu.handong.csee.java.example.inheritance;
 public class Student extends Person{
 	
 	private int studentNumber;
+	
 	public Student()    {
 		super();        
 		studentNumber = 0;//Indicating no number yet    
